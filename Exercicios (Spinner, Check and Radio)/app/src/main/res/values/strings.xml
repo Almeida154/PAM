@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Spinner, RadioButton and Checkbox</string>
+    <string name="quest1">1. O WordPress é um:</string>
+
+    <string name="quest2">2. Quem foi o pai da Programação Orientada a Objetos?</string>
+    <string name="resQuest2Opc1">Alan key</string>
+    <string name="resQuest2Opc2">Alan Ferreira</string>
+    <string name="resQuest2Opc3">Tony Stark</string>
+
+    <string name="quest3">3. Qual a linguagem de programação mais utilizada?</string>
+    <string name="resQuest3Opc1">Python</string>
+    <string name="resQuest3Opc2">JavaScript</string>
+    <string name="resQuest3Opc3">C++</string>
+
+    <string name="quest4">4. Quais das opções abaixo NÃO são linguagens de programação?</string>
+    <string name="resQuest4Opc1">HTML</string>
+    <string name="resQuest4Opc2">Kotlin</string>
+    <string name="resQuest4Opc3">JSON</string>
+
+    <string name="tx1">Quiz:</string>
+    <string name="btnCorrigir">Corrigir</string>
+    <string name="btnLimpar">Limpar</string>
+
+    <string-array name="spnArray">
+        <item>Escolha</item>
+        <item>CMS(Content Management System)</item>
+        <item>Framework</item>
+        <item>Linguagem de marcação</item>
+    </string-array>
+</resources>
