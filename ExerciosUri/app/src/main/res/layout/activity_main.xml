@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgVgo1012"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/right"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="60px"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seja Bem-Vindo"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: David Almeida Santos - Nº04"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt1Home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turma: 2ºMtec - A"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt2Home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor: Allan"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt3Home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercícios da URI aplicados em Java, no Android Studio"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:id="@+id/txt4Home"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 - Área (1012)"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:id="@+id/txt5Home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 - Tabela (1038)"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:id="@+id/txt6Home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 - Número Perfeito (1164)"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:id="@+id/txt7Home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etec de Guaiacity"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+</LinearLayout>

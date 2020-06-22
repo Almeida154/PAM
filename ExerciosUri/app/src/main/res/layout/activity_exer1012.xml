@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exer1012Activity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URI - 1012"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="23dp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgVgo1012"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/right"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60px"
+            android:onClick="goTo1038"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor A:"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="100px"
+            android:id="@+id/txt1">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite aqui..."
+            android:textSize="25sp"
+            android:textColorHint="@color/hintoso"
+            android:backgroundTint="@color/inputs"
+            android:layout_marginTop="149px"
+            android:layout_marginLeft="30px"
+            android:id="@+id/valorA"
+            android:inputType="numberDecimal">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor B:"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="2px"
+            android:layout_marginLeft="100px"
+            android:id="@+id/txt2">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite aqui..."
+            android:textSize="25sp"
+            android:textColorHint="@color/hintoso"
+            android:backgroundTint="@color/inputs"
+            android:layout_marginTop="1px"
+            android:layout_marginLeft="30px"
+            android:id="@+id/valorB"
+            android:inputType="numberDecimal">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor C:"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="2px"
+            android:layout_marginLeft="100px"
+            android:id="@+id/txt3">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite aqui..."
+            android:textSize="25sp"
+            android:textColorHint="@color/hintoso"
+            android:backgroundTint="@color/inputs"
+            android:layout_marginTop="1px"
+            android:layout_marginLeft="30px"
+            android:id="@+id/valorC"
+            android:inputType="numberDecimal">
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:onClick="CalcArea">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="220px"
+        android:text="TRIANGULO:\nCIRCULO:\nTRAPEZIO:\nQUADRADO:\nRETANGULO:"
+        android:id="@+id/res">
+    </TextView>
+
+</LinearLayout>

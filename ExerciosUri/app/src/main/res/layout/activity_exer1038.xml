@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exer1038Activity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URI - 1038"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="23dp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgVgo1012"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/right"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60px"
+            android:onClick="goTo1164"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#220c42"
+        android:layout_marginTop="50dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp">
+
+        //1 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#220c42"
+            android:paddingRight="15px"
+            android:paddingLeft="15px"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:text="Código"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="Descrição"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="Preço"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        //2 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#361762">
+            <TextView
+                android:text="1"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="Hot Dog"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="R$4,00"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        //3 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#361762">
+            <TextView
+                android:text="2"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="X-Salada"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="R$4,50"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        //4 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#361762">
+            <TextView
+                android:text="3"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="X-Bacon"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="R$5,00"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        //5 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#361762">
+            <TextView
+                android:text="4"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="Torrada Simples"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="R$2,00"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        //6 LINHA
+        <TableRow
+            android:layout_height="1px"
+            android:background="#361762">
+            <TextView
+                android:text="5"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="Refrigerante"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:text="R$1,50"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cód.:"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="50px"
+            android:id="@+id/txtCod">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite"
+            android:textSize="25sp"
+            android:textColorHint="@color/hintoso"
+            android:backgroundTint="@color/inputs"
+            android:layout_marginTop="49px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="15px"
+            android:inputType="number"
+            android:id="@+id/cod">
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qntd.:"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="15px"
+            android:id="@+id/txtCodgin">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite"
+            android:textSize="25sp"
+            android:textColorHint="@color/hintoso"
+            android:backgroundTint="@color/inputs"
+            android:layout_marginTop="49px"
+            android:layout_marginLeft="30px"
+            android:inputType="number"
+            android:id="@+id/qntd">
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Preço"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="CalcPreco">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:text="Produto:\nQuantidade:\nTotal:"
+        android:layout_gravity="center"
+        android:id="@+id/resp">
+    </TextView>
+
+</LinearLayout>
