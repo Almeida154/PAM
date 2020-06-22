@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#020202</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mainBackground">#1e1e1e</color>
+    <color name="subMenuBackground">#161616</color>
+    <color name="btnBlack">#161616</color>
+    <color name="btnGrey">#343434</color>
+    <color name="btnDifferent">#6d6d6d</color>
+
+</resources>
+
+
