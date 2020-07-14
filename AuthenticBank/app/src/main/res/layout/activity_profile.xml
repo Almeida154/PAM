@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:background="@drawable/greenbg"
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/bgwhiteoval"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="120dp"
+                android:src="@drawable/heisenbergprofile"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txvUserName"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mariana Santos"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bold"
+            android:textSize="30sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvUserEmail"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mariana@gmail"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bold"
+            android:textSize="18sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your account"
+        android:fontFamily="@font/normal"
+        android:textSize="30sp"
+        android:textColor="@color/greenStrong">
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mariana Santos"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mariana@gmail"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available balance:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvCurrentBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 1.500,00"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save money:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvSaveMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 30,00"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card:"
+            android:layout_marginLeft="50dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvCreditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234 1234 1234 1234"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/greyLight">
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/thin"
+        android:text="@string/addCard_backToHome"
+        android:textAlignment="center"
+        android:textColor="@color/greenStrong"
+        android:textSize="20sp"
+        android:onClick="txvBack">
+    </TextView>
+
+</LinearLayout>

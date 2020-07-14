@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.authenticbank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ToTransferActivity"></activity>
+        <activity android:name=".ToPayBillActivity" />
+        <activity android:name=".ToPayInvoiceActivity" />
+        <activity android:name=".ToPayFriendActivity" />
+        <activity android:name=".MobileTopUpActivity" />
+        <activity android:name=".QrActivity" />
+        <activity android:name=".ToWithdrawActivity" />
+        <activity android:name=".ToDepositActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".IncreaseLimitActivity" />
+        <activity android:name=".SaveMoneyActivity" />
+        <activity android:name=".AddCardActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".ToPayActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

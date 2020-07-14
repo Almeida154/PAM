@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WithCardFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_titleCard"
+            android:textSize="20sp"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/greyStrong2"
+            android:drawableStart="@drawable/ic_card"
+            android:drawablePadding="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_subTitleCard"
+            android:textSize="25sp"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvCardInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 2.045,00"
+            android:textSize="30sp"
+            android:fontFamily="@font/roboto_black"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/orange">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_limitCard"
+                android:textSize="20sp"
+                android:fontFamily="@font/bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/greyStrong2">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txvCardLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 3.000,00"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/greenStrong">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnIncreaseLimit"
+                android:background="@drawable/buttonradius"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/home_textButtonWithCardIncrease"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_black">
+            </Button>
+
+            <Button
+                android:id="@+id/btnPaySomething"
+                android:background="@drawable/buttonradius"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/home_textButtonWithCard"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginLeft="5dp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

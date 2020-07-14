@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/splashscreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_title"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        android:fontFamily="@font/bold">
+    </TextView>
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_text"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        android:fontFamily="@font/thin">
+    </TextView>
+
+     <Button
+        android:background="@drawable/buttonradius"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="35dp"
+        android:text="@string/splash_textButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:onClick="btnNext"
+         android:fontFamily="@font/roboto_black">
+    </Button>
+
+</LinearLayout>

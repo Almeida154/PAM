@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobileTopUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/paymentscreen">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/normal"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_title">
+    </TextView>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <FrameLayout
+                android:id="@+id/fragContainer"
+                android:layout_marginTop="-10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/cardOrBalanceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp">
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:padding="10dp"
+                android:background="@drawable/bggreyoval"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/heisenbergprofile">
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_subtitle">
+        </TextView>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_iphone"
+            android:layout_gravity="center"
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="25dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/greyStrong"
+            android:textColorHint="@color/grey"
+            android:maxLength="11"
+            android:inputType="number"
+            android:hint="@string/mobile_hintNumber"
+            android:textSize="18sp"
+            android:id="@+id/edtNumberphone">
+        </EditText>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_dolar"
+            android:layout_gravity="center"
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="25dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/greyStrong"
+            android:textColorHint="@color/grey"
+            android:maxLength="11"
+            android:inputType="number"
+            android:hint="@string/mobile_hintHowMuch"
+            android:textSize="15sp"
+            android:id="@+id/edtHowMuchTopUp">
+        </EditText>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:drawablePadding="5dp"
+                android:drawableEnd="@drawable/ic_oi"
+                android:buttonTint="@color/greyStrong2"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:id="@+id/rbOi">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="5dp"
+                android:drawableEnd="@drawable/ic_vivo"
+                android:buttonTint="@color/greyStrong2"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:id="@+id/rbVivo">
+            </RadioButton>
+
+            <RadioButton
+                android:drawablePadding="5dp"
+                android:drawableEnd="@drawable/ic_tim"
+                android:buttonTint="@color/greyStrong2"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:id="@+id/rbTim">
+            </RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:background="@drawable/buttons"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/mobile_textButton"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="btnTopUp">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/thin"
+            android:text="@string/mobile_backToPay"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:onClick="txvBackToPayQr">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

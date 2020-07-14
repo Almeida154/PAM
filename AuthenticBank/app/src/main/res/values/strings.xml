@@ -1,0 +1,196 @@
+<resources>
+
+    // SplashScreen
+
+    <string name="app_name">Authentic Bank</string>
+    <string name="splash_title">Your digital bank</string>
+    <string name="splash_text">Welcome to Authentic Bank.
+        In our digital bank, you are free to pay bills,
+        recharge your cell phone and more. We wish you a
+        good experience.</string>
+    <string name="splash_textButton">Next</string>
+
+    // LoginScreen
+
+    <string name="login_text">Sign in to manage your\nmoney :)</string>
+    <string name="login_buttonText">Log in</string>
+    <string name="login_textReg">Don\'t have an account yet?</string>
+    <string name="login_textRegister">Create an account</string>
+    <string name="login_hintEmail">Email</string>
+    <string name="login_hintPassword">Password</string>
+
+    // RegisterScreen
+
+    <string name="register_text">Register with us to manage\n your money :)</string>
+    <string name="register_checkboxText">I agree with Authentic Bank\'s terms\nand policies.</string>
+    <string name="register_buttonText">Create</string>
+    <string name="register_back">Back to log in</string>
+    <string name="register_hintFn">Your first name</string>
+    <string name="register_hintLn">Your last name</string>
+    <string name="register_hintEmail">Your best email</string>
+    <string name="register_hintPassword">Your password</string>
+    <string name="register_hintRepeatPassword">Repeat your password</string>
+
+    // HomeScreen
+
+    <string name="home_titleBalance">Your available balance</string>
+    <string name="home_saveMoney">Save your money</string>
+    <string name="home_titleCard">Your credit card</string>
+    <string name="home_subTitleCard">Current invoice</string>
+    <string name="home_limitCard">Available limit:</string>
+    <string name="home_textButtonWithCard">Pay something</string>
+    <string name="home_textButtonWithCardIncrease">Increase limit</string>
+    <string name="home_textButtonWithoutCard">I want to add a card</string>
+    <string name="home_withoutCard">You haven\'t added\na card to your account\nyet. We recommend\nthat you do this.</string>
+
+    // SaveMoneyScreen
+
+    <string name="saveMoney_title">Save your money</string>
+    <string name="saveMoney_txtExplanation">Here, you can save your money.\nPut an amount and we won\'t\nlet you spend it.</string>
+    <string name="saveMoney_checkboxText">I agree not to spend that amount</string>
+    <string name="saveMoney_backToHome">Back to Home</string>
+    <string name="saveMoney_buttonText">To apply</string>
+    <string name="saveMoney_balance">Your free balance:</string>
+    <string name="saveMoney_hint">How much do you want to save</string>
+
+    // AddCardScreen
+
+    <string name="addCard_title">Add a card</string>
+    <string name="addCard_cardHolder">Card Holder</string>
+    <string name="addCard_cardExp">Exp Date</string>
+    <string name="addCard_cardExpNumber">09/24</string>
+    <string name="addCard_details">Details</string>
+    <string name="addCard_cardNum">Card Number:</string>
+    <string name="addCard_cardHol">Card Holder:</string>
+    <string name="addCard_cardExpiration">Expiration Date:</string>
+    <string name="addCard_cardCvv">Cvv:</string>
+    <string name="addCard_limit">Limit</string>
+    <string name="addCard_1opc">R$ 1.200</string>
+    <string name="addCard_2opc">R$ 1.500</string>
+    <string name="addCard_3opc">R$ 2.000</string>
+    <string name="addCard_backToHome">Back</string>
+    <string name="addCard_buttonText">Add card</string>
+
+    // IncreaseLimitScreen
+
+    <string name="increaseLimit_title">Increase your limit</string>
+    <string name="increaseLimit_description">Here, you can increase your card\nlimit. The maximum limit\nis ten hundred reais.</string>
+    <string name="increaseLimit_currentLimit">Your current limit: </string>
+    <string name="increaseLimit_checkboxText">I agree increase my limit</string>
+    <string name="increaseLimit_buttonText">To increase</string>
+    <string name="increaseLimit_hint">Your new limit</string>
+
+    // WalletScreen
+
+    <string name="wallet_title">Your wallet</string>
+    <string name="wallet_desc">Current available balance</string>
+    <string name="wallet_text">Withdraw and deposit your money.\nTransitions over one million\nare not possible.</string>
+    <string name="wallet_btn1">To withdraw</string>
+    <string name="wallet_btn2">To deposit</string>
+
+    // ToDepositScreen
+
+    <string name="toDeposit_title">To deposit</string>
+    <string name="toDeposit_description">Deposit less than one\nmillion.</string>
+    <string name="toDeposit_AvailableBalance">Your available balance: </string>
+    <string name="toDeposit_checkboxText">Are you sure?</string>
+    <string name="toDeposit_buttonText">To deposit</string>
+    <string name="toDeposit_backToWallet">Back to Wallet</string>
+    <string name="toDeposit_hint">How many do you want to deposit</string>
+
+    // WithdrawScreen
+
+    <string name="toWithdraw_title">To withdraw</string>
+    <string name="toWithdraw_description">Stay tuned to your\nbalance.</string>
+    <string name="toWithdraw_AvailableBalance">Your available balance: </string>
+    <string name="toWithdraw_checkboxText">Are you sure?</string>
+    <string name="toWithdraw_buttonText">To withdraw</string>
+    <string name="toWithdraw_backToWallet">Back to Wallet</string>
+    <string name="toWithdraw_hint">How many do you want to withdraw</string>
+
+    // SettingsScreen
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_name">Email:</string>
+    <string name="settings_pswd">Password:</string>
+    <string name="settings_change">Change</string>
+    <string name="settings_cancelSaveMoney">I no longer want to\nsave my money</string>
+    <string name="settings_cancelCreditCard">I want to cancel\nmy card</string>
+    <string name="settings_backToHome">Back to home</string>
+    <string name="settings_logOut">Log out</string>
+
+    // ToPayScreen
+
+    <string name="toPay_title">To pay</string>
+    <string name="toPay_desc">Current available balance</string>
+    <string name="toPay_transfer">To transfer</string>
+    <string name="toPay_bill">To pay bill</string>
+    <string name="toPay_invoice">To pay invoice</string>
+    <string name="toPay_friend">To pay a friend</string>
+    <string name="toPay_topUp">Mobile top up</string>
+    <string name="toPay_qr">To pay with QR</string>
+
+    // QRScreen
+
+    <string name="qr_title">QR CODE</string>
+    <string name="qr_backToPay">Back to pay</string>
+    <string name="qr_balance">Balance</string>
+
+    // ToPayBillScreen
+
+    <string name="toPayBill_title">TO PAY BILL</string>
+    <string name="toPayBill_backToPay">Back to pay</string>
+    <string name="toPayBill_balance">Balance</string>
+
+    // MobileTopUpScreen
+
+    <string name="mobile_title">MOBILE TOP UP</string>
+    <string name="mobile_backToPay">Back to pay</string>
+    <string name="mobile_subtitle">Your number cell phone</string>
+    <string name="mobile_hintNumber">Number cellphone</string>
+    <string name="mobile_hintHowMuch">How much you want top up</string>
+    <string name="mobile_textButton">Top up</string>
+
+    // PayFriendScreen
+
+    <string name="payFriend_title">TO PAY A FRIEND</string>
+    <string name="payFriend_backToPay">Back to pay</string>
+    <string name="payFriend_subtitle">Complete</string>
+    <string name="payFriend_hintNumber">Friend\'s ID</string>
+    <string name="payFriend_hintHowMuch">How much you want to pay</string>
+    <string name="payFriend_textButton">To pay</string>
+    <string name="payFriend_checkboxText">I agree to pay</string>
+
+    // PayFriendScreen
+
+    <string name="transfer_title">TO TRANSFER</string>
+    <string name="transfer_backToPay">Back to pay</string>
+    <string name="transfer_subtitle">Complete</string>
+    <string name="transfer_hintNumberAcc">Account Number</string>
+    <string name="transfer_hintAgency">Agency</string>
+    <string name="transfer_hintHowMuch">How much you want to transfer</string>
+    <string name="transfer_textButton">To transfer</string>
+    <string name="transfer_checkboxText">I agree to transfer</string>
+
+    // PaiInvoiceScreen
+
+    <string name="payInvoice_title">TO PAY INVOICE</string>
+    <string name="payInvoice_backToPay">Back to pay</string>
+    <string name="payInvoice_subtitle">Read and accept</string>
+    <string name="payInvoice_textButton">To pay</string>
+    <string name="payInvoice_checkboxText">I agree to pay</string>
+    <string name="payInvoice_describe">Your card bill is paid with your balance money, are you sure you want to pay?</string>
+
+    // MethodFragments
+
+    <string name="method_balance">Balance</string>
+    <string name="method_card">Credit Card</string>
+
+    // Spinner
+
+    <string-array name="values">
+        <item>Available balance</item>
+        <item>Credit card</item>
+    </string-array>
+
+</resources>

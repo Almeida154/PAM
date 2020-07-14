@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToTransferActivity"
+    android:orientation="vertical"
+    android:background="@drawable/paymentscreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/normal"
+        android:text="@string/transfer_title"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp">
+    </TextView>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <FrameLayout
+                android:id="@+id/fragContainer"
+                android:layout_marginTop="-10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/cardOrBalanceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp">
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:padding="10dp"
+                android:background="@drawable/bggreyoval"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/heisenbergprofile">
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="405dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payFriend_subtitle">
+        </TextView>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_agency"
+            android:layout_gravity="center"
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-50dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/greyStrong"
+            android:textColorHint="@color/grey"
+            android:maxLength="4"
+            android:inputType="number"
+            android:hint="@string/transfer_hintAgency"
+            android:textSize="18sp"
+            android:id="@+id/edtAgency">
+        </EditText>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_accountn"
+            android:layout_gravity="center"
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/greyStrong"
+            android:textColorHint="@color/grey"
+            android:maxLength="10"
+            android:inputType="number"
+            android:hint="@string/transfer_hintNumberAcc"
+            android:textSize="18sp"
+            android:id="@+id/edtNumberAccount">
+        </EditText>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_dolar"
+            android:layout_gravity="center"
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/greyStrong"
+            android:textColorHint="@color/grey"
+            android:maxLength="6"
+            android:inputType="number"
+            android:hint="@string/transfer_hintHowMuch"
+            android:textSize="14sp"
+            android:id="@+id/edtHowMuchTransfer">
+        </EditText>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/light"
+            android:textColor="@color/greyStrong"
+            android:buttonTint="@color/greenStrong"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingStart="5dp"
+            android:text="@string/transfer_checkboxText"
+            android:layout_gravity="start"
+            android:layout_marginLeft="46dp"
+            android:id="@+id/cbTermTransfer">
+        </CheckBox>
+
+        <Button
+            android:background="@drawable/buttons"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/payFriend_textButton"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="btnToTransfer">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/thin"
+            android:text="@string/mobile_backToPay"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:onClick="txvBackToPayTransfer">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

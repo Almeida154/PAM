@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bold"
+            android:textSize="36sp"
+            android:textColor="@color/greenStrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method_card">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvCardPay"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="18sp"
+            android:textColor="@color/greenStrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 3.000.000,00">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

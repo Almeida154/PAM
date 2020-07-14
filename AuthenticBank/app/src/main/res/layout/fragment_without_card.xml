@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WithoutCardFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_titleCard"
+            android:textSize="20sp"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/greyStrong2"
+            android:drawableStart="@drawable/ic_card"
+            android:drawablePadding="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_withoutCard"
+            android:textSize="25sp"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/greyStrong2">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnCreateCard"
+            android:background="@drawable/buttonradius"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="35dp"
+            android:text="@string/home_textButtonWithoutCard"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_black">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

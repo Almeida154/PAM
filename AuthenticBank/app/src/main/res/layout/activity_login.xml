@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginscreen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/bgwhiteradius"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="365dp"
+        android:layout_marginTop="370dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/login_text"
+            android:textAlignment="center"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp">
+        </TextView>
+
+        <EditText
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:layout_height="50dp"
+            android:textColor="@color/greyStrong"
+            android:hint="@string/login_hintEmail"
+            android:textColorHint="@color/grey"
+            android:drawableEnd="@drawable/ic_email_black_18dp"
+            android:maxLength="22"
+            android:inputType="text|textEmailAddress|textNoSuggestions"
+            android:id="@+id/edtEmailLog"
+            android:importantForAutofill="no">
+        </EditText>
+
+        <EditText
+            android:background="@drawable/bgedittexts"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="10dp"
+            android:layout_height="50dp"
+            android:textColor="@color/greyStrong"
+            android:hint="@string/login_hintPassword"
+            android:inputType="textPassword|textNoSuggestions"
+            android:textColorHint="@color/grey"
+            android:drawableEnd="@drawable/ic_lock_black_18dp"
+            android:maxLength="22"
+            android:id="@+id/edtPasswordLog">
+        </EditText>
+
+        <Button
+            android:background="@drawable/buttons"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/login_buttonText"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="btnLogin">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/thin"
+            android:text="@string/login_textReg"
+            android:textAlignment="center"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/bold"
+            android:text="@string/login_textRegister"
+            android:textAlignment="center"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:onClick="txvCreateAnAccount">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

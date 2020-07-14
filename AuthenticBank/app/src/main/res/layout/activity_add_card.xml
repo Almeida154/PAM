@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity"
+    android:background="@drawable/greenscreen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/normal"
+                android:text="@string/addCard_title"
+                android:textColor="@color/white"
+                android:textSize="40sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/person"
+                android:onClick="ibProfileAc">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bgwhite"
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cardbg"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|end">
+
+                <TextView
+                    android:layout_marginRight="35dp"
+                    android:text="@string/app_name"
+                    android:layout_width="125dp"
+                    android:layout_height="15dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="textEnd"
+                    android:fontFamily="@font/roboto_black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/txvCardN1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1133"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_black"
+                    android:textSize="20sp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txvCardN2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1133"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_black"
+                    android:textSize="20sp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txvCardN3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1133"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_black"
+                    android:textSize="20sp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txvCardN4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1133"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_black"
+                    android:textSize="20sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="start">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/addCard_cardHolder"
+                        android:fontFamily="@font/thin"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="35dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txvCardHolder"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="Mariana Santos"
+                        android:fontFamily="@font/thin"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="35dp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/addCard_cardExp"
+                        android:fontFamily="@font/thin"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="70dp">
+                    </TextView>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/addCard_cardExpNumber"
+                        android:fontFamily="@font/thin"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="70dp">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/greenStrong"
+            android:textSize="26sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addCard_details">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_cardNum">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txvCardNumber"
+                android:layout_marginLeft="45dp"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1133 1133 1133 1133">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_cardHol">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txvCardHolderDetail"
+                android:layout_marginLeft="55dp"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mariana Santos">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_cardExpiration">
+            </TextView>
+
+            <TextView
+                android:layout_marginLeft="28dp"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_cardExpNumber">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_cardCvv">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txvCvvCard"
+                android:layout_marginLeft="117dp"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="789">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/greenStrong"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addCard_limit">
+        </TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:buttonTint="@color/greenStrong"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_1opc"
+                android:textColor="@color/green"
+                android:id="@+id/rbOpc1">
+            </RadioButton>
+
+            <RadioButton
+                android:buttonTint="@color/greenStrong"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_2opc"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/green"
+                android:id="@+id/rbOpc2">
+            </RadioButton>
+
+            <RadioButton
+                android:buttonTint="@color/greenStrong"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addCard_3opc"
+                android:textColor="@color/green"
+                android:id="@+id/rbOpc3">
+            </RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:background="@drawable/buttons"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/addCard_buttonText"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="btnAddCard">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/thin"
+            android:text="@string/addCard_backToHome"
+            android:textAlignment="center"
+            android:textColor="@color/greenStrong"
+            android:textSize="20sp"
+            android:onClick="txvBackToHome">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
