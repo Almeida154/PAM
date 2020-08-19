@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222222</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#FFF</color>
+    <color name="grey">#B3B3B3</color>
+    <color name="black">#000</color>
+    <color name="blackbl">#131313</color>
+    <color name="blackLight">#202020</color>
+    <color name="blackLightDif">#323232</color>
+    <color name="blue">#216DAF</color>
+    <color name="yellow">#F3B61F</color>
+</resources>

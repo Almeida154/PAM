@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DatePicker" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="showTitle">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorControlActivated">@color/blackLightDif</item>
+        <item name="colorAccent">@color/blackbl</item>
+        <item name="android:windowBackground">@drawable/custompicker</item>
+    </style>
+
+    <style name="TimePicker" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/blackbl</item>
+        <item name="colorControlActivated">@color/blackLightDif</item>
+        <item name="colorControlHighlight">@color/grey</item>
+        <item name="android:windowBackground">@drawable/custompicker</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+        <item name="android:textColorSecondary">@color/grey</item>
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerTimePickerItemStyle</item>
+    </style>
+
+    <style name="mySpinnerTimePickerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:background">@color/blackLight</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+        <item name="android:background">@color/blackLight</item>
+    </style>
+</resources>

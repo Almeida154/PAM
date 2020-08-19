@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:gravity="center_vertical" android:drawable="@drawable/bgsb" android:height="6dp"/>
+    <item android:id="@android:id/progress" android:gravity="center_vertical" android:height="6dp">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:drawable="@drawable/bgprogresssb"/>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

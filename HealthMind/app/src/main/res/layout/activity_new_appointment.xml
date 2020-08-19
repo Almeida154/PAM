@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAppointmentActivity"
+    android:orientation="vertical"
+    android:background="@drawable/newappointment">
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_appointment"/>
+
+    <TextView
+        android:textSize="30dp"
+        android:fontFamily="@font/grandehotel"
+        android:layout_marginTop="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NewAppointmentTxt"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtCpfAppointment"
+        android:drawableEnd="@drawable/ic_cpf"
+        android:textColor="@color/white"
+        android:fontFamily="@font/thin"
+        android:hint="@string/NewAppointmentPatientCpf"
+        android:textColorHint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/bgsolidgrey"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:maxLength="14"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txvDate"
+        android:onClick="txvDate"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:textColor="@color/white"
+        android:fontFamily="@font/thin"
+        android:text="@string/NewAppointmentDate"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/bgsolidgrey"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:inputType="number"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txvHour"
+        android:onClick="txvHour"
+        android:drawableEnd="@drawable/ic_hour"
+        android:textColor="@color/white"
+        android:fontFamily="@font/thin"
+        android:text="@string/NewAppointmentHour"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/bgsolidgrey"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:inputType="number"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:textColor="@color/white"
+        android:fontFamily="@font/thin"
+        android:hint="@string/NewAppointmentDescription"
+        android:textColorHint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/bgsolidgrey"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:inputType="text|textCapSentences"
+        android:maxLength="30"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp">
+        <TextView
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NewAppointmentPrice"
+            android:textColor="@color/white"
+            android:fontFamily="@font/grandehotel"/>
+
+        <TextView
+            android:id="@+id/txvPrice"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(R$50,00)"
+            android:textColor="@color/white"
+            android:fontFamily="@font/grandehotel"/>
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/sbPrice"
+        android:progressDrawable="@drawable/custom_seekbar"
+        android:thumb="@drawable/custom_thumb"
+        android:max="250"
+        android:min="50"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:background="@drawable/bgbutton"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="@string/NewAppointmentSchedule"
+        android:textColor="@color/white"
+        android:fontFamily="@font/thin"
+        android:textSize="18sp"
+        android:onClick="btnSchedule"/>
+
+</LinearLayout>

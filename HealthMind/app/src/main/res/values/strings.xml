@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Health Mind</string>
+
+    // HomeScreen
+    <string name="HomeBtn1">Register patient</string>
+    <string name="HomeBtn2">New appointment</string>
+    <string name="HomeBtn3">My appointments</string>
+
+    // RegisterPatient
+    <string name="RegisterPatientTxt">To register a new patient</string>
+    <string name="RegisterPatientName">Enter the patient\'s name...</string>
+    <string name="RegisterPatientCpf">Enter the patient\'s cpf...</string>
+    <string name="RegisterPatientEmail">Enter the patient\'s email...</string>
+    <string-array name="genders">
+        <item>Enter the patient\'s gender...</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="NewPatientRegister">To Register</string>
+
+    // NewAppointmentScreen
+    <string name="NewAppointmentTxt">To schedule an appointment</string>
+    <string name="NewAppointmentPatientCpf">Enter the patient\'s cpf...</string>
+    <string name="NewAppointmentDate">Enter the appointment\'s date...</string>
+    <string name="NewAppointmentHour">Enter the appointment\'s hour...</string>
+    <string name="NewAppointmentDescription">Enter the appointment\'s desc...</string>
+    <string name="NewAppointmentSchedule">To Schedule</string>
+    <string name="NewAppointmentPrice">Price</string>
+
+    // MyAppointments
+    <string-array name="filter">
+        <item>Filter</item>
+        <item>By patients</item>
+        <item>By appointments</item>
+    </string-array>
+
+    <string name="MyAppointmentsNoFilter">Filter by patients or appointments!</string>
+
+</resources>
