@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Contact Book</string>
+    <string name="homeScreenTxt">Save your contacts\nwith us</string>
+    <string name="homeScreenTitle">Complete the fields below</string>
+    <string name="homeScreenEdt01">Name</string>
+    <string name="homeScreenEdt02">Email</string>
+    <string name="homeScreenEdt03">Telephone Number</string>
+    <string name="homeScreenEdt04">Point</string>
+    <string name="homeScreenEdt05">Message</string>
+    <string name="homeScreenBtn">Register</string>
+    <string name="homeScreenAllRegisters">All registers</string>
+
+    <string name="registersScreenTxt">Nothing to\nshow</string>
+    <string name="registersScreenSad">You need to add some\ncontacts...</string>
+    <string name="registersScreenExit">Back</string>
+    <string name="registersScreenTitle">Contacts</string>
+
+</resources>
