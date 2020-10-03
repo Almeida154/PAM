@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistersActivity"
+    tools:context=".DeleteRegistersActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="@drawable/registerscreen">
+    android:background="@drawable/deletescreen">
 
     <TextView
-        android:id="@+id/txvTitleRegisters"
+        android:id="@+id/txvTitleDelete"
         android:visibility="invisible"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/grandehotel"
         android:textColor="@color/grey"
         android:textSize="40dp"
-        android:text="@string/registersScreenTitle"
+        android:text="@string/deleteRegistersScreenTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <FrameLayout
-        android:layout_marginTop="15dp"
-        android:id="@+id/flListViewRegisters"
+        android:layout_marginTop="30dp"
+        android:id="@+id/flListViewDelete"
         android:layout_width="300dp"
-        android:layout_height="550dp"/>
+        android:layout_height="400dp"/>
 
     <TextView
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="160dp"
         android:fontFamily="@font/grandehotel"
         android:textColor="@color/pink"
         android:textSize="30sp"

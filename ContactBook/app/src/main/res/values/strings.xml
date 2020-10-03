@@ -9,10 +9,17 @@
     <string name="homeScreenEdt05">Message</string>
     <string name="homeScreenBtn">Register</string>
     <string name="homeScreenAllRegisters">All registers</string>
+    <string name="homeScreenDeleteRegister">Delete a register</string>
 
     <string name="registersScreenTxt">Nothing to\nshow</string>
     <string name="registersScreenSad">You need to add some\ncontacts...</string>
     <string name="registersScreenExit">Back</string>
     <string name="registersScreenTitle">Contacts</string>
+
+    <string name="deleteRegistersScreenTitle">Delete a contact</string>
+    <string name="deleteRegistersScreenButton">Delete</string>
+    <string name="deleteRegistersScreenTxt">Put a email and\nconfirm it</string>
+    <string name="deleteRegistersScreenEdt">Email</string>
+    <string name="deleteRegistersScreenConfirmEdt">Confirm Email</string>
 
 </resources>

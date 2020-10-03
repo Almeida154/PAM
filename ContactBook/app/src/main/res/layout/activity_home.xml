@@ -27,7 +27,7 @@
         android:fontFamily="@font/grandehotel"
         android:text="@string/homeScreenTxt"
         android:textColor="@color/grey"
-        android:textSize="35sp" />
+        android:textSize="25sp"/>
 
     <LinearLayout
         android:id="@+id/llCont"
@@ -36,7 +36,7 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/greyradius"
         android:layout_width="match_parent"
-        android:layout_height="600dp">
+        android:layout_height="630dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -138,14 +138,37 @@
             android:textSize="25sp"
             android:fontFamily="@font/grandehotel"/>
 
-        <TextView
-            android:onClick="txvAllRegisters"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/homeScreenAllRegisters"
-            android:layout_marginTop="30dp"
-            android:textSize="20sp"
-            android:fontFamily="@font/thin"/>
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:onClick="txvAllRegisters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homeScreenAllRegisters"
+                android:textSize="20sp"
+                android:fontFamily="@font/thin"/>
+
+            <TextView
+                android:onClick="txvAllRegisters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                android:paddingHorizontal="10dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/thin"/>
+
+            <TextView
+                android:onClick="txvDeleteRegisters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homeScreenDeleteRegister"
+                android:textSize="20sp"
+                android:fontFamily="@font/thin"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

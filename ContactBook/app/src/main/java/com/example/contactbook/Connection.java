@@ -34,9 +34,11 @@ public class Connection extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("drop table if exists " + dbName);
+        db.execSQL("drop table if exists tbContact");
         onCreate(db);
     }
+
+    // Code that I did by myself
 
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();

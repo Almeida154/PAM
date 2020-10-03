@@ -78,4 +78,13 @@ public class Contact {
     public void setMessage(String message) {
         this.message = message;
     }
+
+    @Override
+    public String toString() {
+        return "Name: " + getName() + '\n' +
+                "Email: " + getEmail() + '\n' +
+                "Phone: " + getTelephone() + '\n' +
+                "Point: " + getPoint() + '\n' +
+                "Message: " + getMessage();
+    }
 }

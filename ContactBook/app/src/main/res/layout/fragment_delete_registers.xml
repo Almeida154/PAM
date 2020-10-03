@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteRegistersFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:background="@drawable/deletebg"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/grandehotel"
+            android:text="@string/deleteRegistersScreenTxt"
+            android:textColor="@color/whiteTxt"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/edtEmailDelete"
+            android:drawableEnd="@drawable/ic_email"
+            android:background="@drawable/bgedtlight"
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:paddingHorizontal="20dp"
+            android:hint="@string/deleteRegistersScreenEdt"
+            android:fontFamily="@font/roboto_regular"
+            android:textColorHint="@color/whiteTxt"
+            android:importantForAutofill="no"
+            android:maxLength="25"
+            android:textColor="@color/whiteTxt"
+            android:inputType="text|textNoSuggestions|textCapWords"/>
+
+        <EditText
+            android:id="@+id/edtEmailDeleteConfirm"
+            android:drawableEnd="@drawable/ic_email"
+            android:background="@drawable/bgedtlight"
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:paddingHorizontal="20dp"
+            android:hint="@string/deleteRegistersScreenConfirmEdt"
+            android:fontFamily="@font/roboto_regular"
+            android:textColorHint="@color/whiteTxt"
+            android:importantForAutofill="no"
+            android:maxLength="25"
+            android:textColor="@color/whiteTxt"
+            android:inputType="text|textNoSuggestions|textCapWords"/>
+
+    </LinearLayout>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:id="@+id/btnDelete"
+        android:background="@drawable/bgbtngrey"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/deleteRegistersScreenButton"
+        android:textColor="@color/whiteTxt"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:fontFamily="@font/grandehotel"/>
+
+</LinearLayout>
