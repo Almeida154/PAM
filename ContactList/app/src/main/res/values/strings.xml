@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Contact List</string>
+
+    // Strings
+
+    <string name="fabTxt">New contact</string>
+    <string name="EmptyDatabaseString">No contact registered</string>
+    <string name="EmptyDatabaseEmoji">¯\\_(ツ)_/¯</string>
+    <string name="RegisterTitle">Add a new contact</string>
+    <string name="RegisterName">Name *</string>
+    <string name="RegisterNumber">Number *</string>
+    <string name="RegisterEmail">Email</string>
+    <string name="RegisterLandline">Landline</string>
+    <string name="RegisterNickname">Nickname</string>
+    <string name="RegisterRequiredFields">*</string>
+    <string name="RegisterButton1">Save</string>
+    <string name="RegisterButton2">Discard</string>
+    <string name="UpdateButton1">Update</string>
+    <string name="UpdateButton2">Cancel</string>
+    <string name="UpdateTitle">Update a contact</string>
+
+</resources>

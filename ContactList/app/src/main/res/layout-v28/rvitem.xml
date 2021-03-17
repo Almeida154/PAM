@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/fragment_list_database"
+    android:background="@color/blackLight2"
+    android:outlineProvider="bounds"
+    android:clipToPadding="false"
+    android:id="@+id/cardView"
+    android:outlineAmbientShadowColor="@color/blackLight2">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/blackLight2">
+
+        <TextView
+            android:id="@+id/txvPhotoContact"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:background="@drawable/photocontact"
+            android:textColor="@color/black"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            tools:text="m"/>
+
+            <LinearLayout
+                android:id="@+id/linearL"
+                android:layout_marginStart="64dp"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_alignStart="@id/txvPhotoContact">
+
+                <TextView
+                    android:id="@+id/txvNameContact"
+                    android:fontFamily="@font/grandstanderbold"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    tools:text="Mariana Santos"/>
+
+                <TextView
+                    android:id="@+id/txvNumberContact"
+                    android:fontFamily="@font/grandstanderbold"
+                    android:textColor="@color/lightGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    tools:text="(11) 95764-8755"/>
+
+            </LinearLayout>
+
+        <ImageView
+            android:paddingVertical="15dp"
+            android:id="@+id/ivDelete"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <ImageView
+            android:paddingVertical="15dp"
+            android:id="@+id/ivUpdate"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@id/ivDelete"
+            android:src="@drawable/ic_baseline_create_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

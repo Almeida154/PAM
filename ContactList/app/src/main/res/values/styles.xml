@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/cyberYellow</item>
+    </style>
+    
+    <style name="CustomDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorOnPrimarySurface">@color/dimGray</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorPrimary">@color/cyberYellow</item>
+    </style>
+
+    <style name="CustomDialog2" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorOnPrimarySurface">@color/dimGray</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorPrimary">#E91100</item>
+    </style>
+
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textSize">20sp</item>
+        <item name="hintTextAppearance">@color/dimGray</item>
+        <item name="android:colorForeground">@color/lightGray</item>
+        <item name="colorControlActivated">@color/dimGray</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    // Pallet
+
+    <color name="black">#000</color>
+    <color name="blackLight">#101010</color>
+    <color name="blackLight2">#070707</color>
+    <color name="blackDark">#101010</color>
+    <color name="eerieBlack">#252525</color>
+    <color name="onyx">#454545</color>
+    <color name="dimGray">#6C6C6C</color>
+    <color name="lightGray">#8E8E8E</color>
+    <color name="white">#fff</color>
+    <color name="cyberYellow">#fbcf23</color>
+</resources>

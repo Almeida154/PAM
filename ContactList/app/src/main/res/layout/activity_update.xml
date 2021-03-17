@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/blackLight2"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:textColor="@color/dimGray"
+        android:layout_marginTop="70dp"
+        android:textSize="35sp"
+        android:fontFamily="@font/amaticscbold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UpdateTitle"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtLayoutNameUp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegisterName"
+        android:theme="@style/TextLabel"
+        android:textColor="@color/dimGray"
+        android:textColorHint="@color/dimGray"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/cyberYellow"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconTint="@color/onyx"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:boxCornerRadiusTopStart="3dp"
+        app:boxCornerRadiusTopEnd="3dp"
+        app:boxBackgroundColor="@color/blackDark"
+        app:hintTextColor="@color/dimGray"
+        app:boxStrokeColor="@color/cyberYellow"
+        app:counterTextColor="@color/cyberYellow"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNameUp"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:maxLength="30"
+            android:fontFamily="@font/grandstanderthin"
+            android:importantForAutofill="no"
+            android:inputType="text|textNoSuggestions|textCapWords"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtLayoutNumberUp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegisterNumber"
+        android:theme="@style/TextLabel"
+        android:textColor="@color/dimGray"
+        android:textColorHint="@color/dimGray"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/cyberYellow"
+        app:startIconDrawable="@drawable/ic_baseline_smartphone_24"
+        app:startIconTint="@color/onyx"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:boxCornerRadiusTopStart="3dp"
+        app:boxCornerRadiusTopEnd="3dp"
+        app:boxBackgroundColor="@color/blackDark"
+        app:hintTextColor="@color/dimGray"
+        app:boxStrokeColor="@color/cyberYellow"
+        app:counterTextColor="@color/cyberYellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNumberUp"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:maxLength="15"
+            android:fontFamily="@font/grandstanderthin"
+            android:importantForAutofill="no"
+            android:inputType="number|textNoSuggestions|textCapWords"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtLayoutEmailUp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegisterEmail"
+        android:theme="@style/TextLabel"
+        android:textColor="@color/dimGray"
+        android:textColorHint="@color/dimGray"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/cyberYellow"
+        app:startIconDrawable="@drawable/ic_baseline_alternate_email_24"
+        app:startIconTint="@color/onyx"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:boxCornerRadiusTopStart="3dp"
+        app:boxCornerRadiusTopEnd="3dp"
+        app:boxBackgroundColor="@color/blackDark"
+        app:hintTextColor="@color/dimGray"
+        app:boxStrokeColor="@color/cyberYellow"
+        app:counterTextColor="@color/cyberYellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtEmailUp"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:maxLength="30"
+            android:fontFamily="@font/grandstanderthin"
+            android:importantForAutofill="no"
+            android:inputType="text|textNoSuggestions|textCapWords"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtLayoutLandLineUp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegisterLandline"
+        android:theme="@style/TextLabel"
+        android:textColor="@color/dimGray"
+        android:textColorHint="@color/dimGray"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/cyberYellow"
+        app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+        app:startIconTint="@color/onyx"
+        app:counterEnabled="true"
+        app:counterMaxLength="14"
+        app:boxCornerRadiusTopStart="3dp"
+        app:boxCornerRadiusTopEnd="3dp"
+        app:boxBackgroundColor="@color/blackDark"
+        app:hintTextColor="@color/dimGray"
+        app:boxStrokeColor="@color/cyberYellow"
+        app:counterTextColor="@color/cyberYellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtLandlineUp"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:maxLength="14"
+            android:fontFamily="@font/grandstanderthin"
+            android:importantForAutofill="no"
+            android:inputType="number|textNoSuggestions|textCapWords"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtLayoutNickNameUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/RegisterNickname"
+        android:textColor="@color/dimGray"
+        android:textColorHint="@color/dimGray"
+        android:theme="@style/TextLabel"
+        app:boxBackgroundColor="@color/blackDark"
+        app:endIconTint="@color/cyberYellow"
+        app:boxCornerRadiusTopEnd="3dp"
+        app:boxCornerRadiusTopStart="3dp"
+        app:boxStrokeColor="@color/cyberYellow"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:counterTextColor="@color/cyberYellow"
+        app:endIconMode="clear_text"
+        app:hintTextColor="@color/dimGray"
+        app:startIconDrawable="@drawable/ic_baseline_face_24"
+        app:startIconTint="@color/onyx">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNicknameUp"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/grandstanderthin"
+            android:importantForAutofill="no"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:maxLength="30" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="btnUpdate"
+        android:backgroundTint="@color/cyberYellow"
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        app:cornerRadius="3dp"
+        android:text="@string/UpdateButton1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="btnCancel"
+        android:backgroundTint="@color/cyberYellow"
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        app:cornerRadius="3dp"
+        android:text="@string/UpdateButton2"/>
+
+</LinearLayout>
