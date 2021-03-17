@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:id="@+id/ll">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainText"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:fontFamily="@font/grandhotel"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btnSelect"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="215dp"
+        android:paddingTop="3dp"
+        android:text="@string/btnSelect"
+        android:fontFamily="@font/grandhotel"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
